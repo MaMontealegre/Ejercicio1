@@ -43,4 +43,9 @@ class AutomovilVolador(Automovil):
   def __init__(self,color,marca,aceleracion,esta_volando=True):
     super().__init__(color,marca,aceleracion)
     esta_volando=True
-    
+  
+#agregar metodos vuela y aterriza(esta_volando)
+  def vuela(self):
+    self.esta_volando=True
+  def aterriza(self):
+    self.esta_volando=False
