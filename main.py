@@ -49,3 +49,8 @@ class AutomovilVolador(Automovil):
     self.esta_volando=True
   def aterriza(self):
     self.esta_volando=False
+
+#Crear un automovilvolador y muestre por consola comportamiento y caracteristicas
+AutomovilVolador1=AutomovilVolador("red","Ford",30,True)
+AutomovilVolador2=AutomovilVolador("negro","Audi",50,False)
+print(AutomovilVolador1.vuela())
